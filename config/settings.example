@@ -1,0 +1,64 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings/
+
+#providers:
+#  openweathermap: 547eb00ab9f77e467de79743f730709f
+#  finnhub: d08qrd9r01qju5m86ddgd08qrd9r01qju5m86de0
+
+title: Dashboard
+description: A centralized start page for my HomeLab services and personal links
+startUrl: "homepage.example.com"
+headerStyle: boxed
+
+# background: https://images.unsplash.com/photo-1734903899558-463366085cb7?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+# background: https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=chan-hoi-uj-w-v7OFT4-unsplash.jpg
+
+# background: https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=ryan-hutton-Jztmx9yqjBw-unsplash.jpg
+
+# background: https://images.unsplash.com/photo-1610812387871-806d3db9f5aa?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=vishnu-mohanan-rZKdS0wI8Ks-unsplash.jpg
+
+# background: https://images.unsplash.com/photo-1618903085007-7d50b03b9990?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=lxrcbsv-GzWXf6fugxk-unsplash.jpg
+
+# background: https://images.unsplash.com/photo-1691242559983-db4cb8415ee8?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=elianna-gill-nlaOjkaaQh0-unsplash.jpg
+
+# background: https://images.unsplash.com/photo-1745173036546-c56551790fb8?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+# background: https://images.unsplash.com/photo-1699891730676-037bed3c1bed?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=faded_gallery-OfdOEdGYiuk-unsplash.jpg
+
+# background: https://images.unsplash.com/photo-1583364486567-ce2e045676e9?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=subtle-cinematics-KEI-VNDi0_g-unsplash.jpg
+
+# background: https://images.unsplash.com/photo-1731640275202-28a40f7edd04?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=kellen-riggin-ZHnTWmiz000-unsplash.jpg
+
+# background: https://images.unsplash.com/photo-1689521568081-c5baa6133bd0?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=prithiviraj-a-iVymbcRRbF0-unsplash.jpg
+
+# background: https://images.unsplash.com/photo-1685495856559-5d96a0e51acb?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=ryan-kim-ADvoB9pDkow-unsplash.jpg
+
+background: https://images.unsplash.com/photo-1502790671504-542ad42d5189?auto=format&fit=crop&w=2560&q=80
+
+cardBlur: xs # xs, md, etc... see https://tailwindcss.com/docs/backdrop-blur
+theme: dark # Theme options: "light" or "dark"
+color: blue # Primary accent color (Tailwind palette): e.g. "blue", "indigo", etc.
+showStats: true # Show aggregated Docker stats widget
+statusStyle: "basic" # How service statuses are styled: "card" (default) or "line"
+# linkTarget: _blank # Open all links in a new tab
+target: _self # Open all links in the same tab
+
+layout:
+  Storage:
+    style: row
+    columns: 3
+    header: true
+  Monitoring & Networking:
+    style: row
+    columns: 2
+    header: true
+  Markdown Notes:
+    style: row
+    columns: 1
+    header: true
+  Devops:
+    style: row
+    columns: 2
+    header: true

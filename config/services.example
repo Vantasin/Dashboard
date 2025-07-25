@@ -1,0 +1,72 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- Storage:
+    - Immich:
+        href: https://immich.example.com
+        icon: immich.png
+        description: Immich Photo Library
+        server: live
+        container: immich_server
+    - Nextcloud:
+        href: https://cloud.example.com
+        icon: nextcloud.png
+        description: Cloud File Storage &  Synchronization Tool
+        server: live
+        container: nextcloud-aio-nextcloud
+    - Paperless-ngx:
+        href: https://paperless.example.com
+        icon: paperless-ngx.png
+        description: Document management system
+        server: live
+        container: paperless-webserver-1 
+
+- Monitoring & Networking:
+    - Portainer:
+        href: https://port.example.com
+        icon: portainer.png
+        description: Docker Manager
+        server: live
+        container: portainer
+    - Grafana:
+        href: >-
+          https://graph.example.com
+        icon: grafana.png
+        description: Server Monitoring Dashboard
+        server: live
+        container: grafana
+    - Nginx Proxy Manager:
+        href: https://proxy.example.com
+        icon: nginx-proxy-manager.png
+        description: Reverse Proxy
+        server: live
+        container: nginx-proxy-manager
+    - Pi Hole:
+        href: https://pihole.example.com/admin
+        icon: pi-hole.png
+        description: DNS Ad Blocker
+        server: live
+        container: pihole
+
+- Markdown Notes:
+    - Joplin:
+        href: https://joplin.example.com
+        icon: joplin.png
+        description: Joplin Server – Markdown Notes
+        server: live
+        container: joplin-app-1
+
+- Devops:
+    - Gitea:
+        href: https://gitea.example.com
+        icon: gitea.png
+        description: Git with a cup of tea
+        server: live
+        container: gitea
+    - Woodpecker:
+        href: https://woodpecker.example.com
+        icon: woodpecker-ci.png
+        description: Woodpecker is a simple, yet powerful CI/CD engine with great extensibility
+        server: live
+        container: woodpecker-server

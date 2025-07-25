@@ -1,0 +1,99 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/bookmarks
+
+- Developer:
+    - GitHub:
+        - icon: github.png
+          href: https://github.com/
+          description: Code hosting and collaboration
+    - Tailscale:
+        - icon: tailscale.png
+          href: https://login.tailscale.com/
+          description: Secure VPN and networking
+    - ChatGPT:
+        - icon: chatgpt.png
+          href: https://chat.openai.com/
+          description: AI assistant and chatbot
+
+- Social:
+    - Google News:
+        - icon: google-news.png
+          href: https://news.google.com/
+          description: News aggregator
+    - Instagram:
+        - icon: instagram.png
+          href: https://instagram.com/
+          description: Share and explore photos
+    - Reddit:
+        - icon: reddit.png
+          href: https://reddit.com/
+          description: The front page of the internet
+    - LinkedIn:
+        - icon: linkedin.png
+          href: https://linkedin.com/
+          description: Professional networking
+    - Facebook:
+        - icon: facebook.png
+          href: https://facebook.com/
+          description: Social media and messaging
+    - Twitter:
+        - icon: twitter.png
+          href: https://twitter.com/
+          description: News and microblogging
+
+- Streaming:
+    - Spotify:
+        - icon: spotify.png
+          href: https://open.spotify.com/
+          description: Music streaming
+    - Netflix:
+        - icon: netflix.png
+          href: https://netflix.com/
+          description: Movies and TV shows
+    - Prime Video:
+        - icon: prime-video.png
+          href: https://primevideo.com/
+          description: Amazon's video streaming
+    - Disney Plus:
+        - icon: disney-plus.png
+          href: https://disneyplus.com/
+          description: Disney, Marvel, and Pixar content
+    - Crave:
+        - abbr: Crave
+          href: https://www.crave.ca/
+          description: Canadian TV and movies
+    - YouTube:
+        - icon: youtube.png
+          href: https://youtube.com/
+          description: Watch and share videos
+
+- Financial & Professional:
+    - CIBC:
+        - abbr: CIBC
+          href: https://cibc.ca
+          description: CIBC Bank
+    - TD:
+        - abbr: TD
+          href: https://td.com
+          description: TD Bank
+    - Tangerine Bank:
+        - abbr: TB
+          href: https://tangerine.ca
+          description: Tangerine Bank
+    - Professional Engineers Ontario:
+        - abbr: PEO
+          href: https://peo.on.ca
+          description: Professional Engineers Ontario
+    - TD Insurance:
+        - abbr: TD
+          href: https://www.tdinsurance.com
+          description: TD Insurance
+    - Yahoo Finance:
+        - abbr: YF
+          href: https://ca.finance.yahoo.com/portfolios/
+          description: Stock portfolio and market tracker
+    - CRA:
+        - abbr: CRA
+          href: https://www.canada.ca/en/revenue-agency.html
+          description: Canada Revenue Agency
