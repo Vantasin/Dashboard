@@ -83,7 +83,7 @@ tank/
    Copy and modify the `config/` files:
 
    ```bash
-   sudo for f in config/*.example; do target="${f%.example}.yaml"; [ ! -f "$target" ] && cp "$f" "$target" && echo "Created: $target" || echo "Skipped: $target already exists"; done
+   sudo zsh -c 'for f in config/*.example; do target="${f%.example}.yaml"; [ ! -f "$target" ] && cp "$f" "$target" && echo "Created: $target" || echo "Skipped: $target already exists"; done'
    ```
 
    > **Note:** Be sure to update the `bookmarks.yaml`, `docker.yaml`, `services.yaml`, `settings.yaml`, & `widgets.yaml` as reequired.
