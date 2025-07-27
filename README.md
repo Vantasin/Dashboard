@@ -88,7 +88,7 @@ tank/
 
    > **Note:** Be sure to replace `example.com` in the `services.yaml` & `settings.yaml` files with your **domain**.
 
-   > **Optional:** You can update the `bookmarks.yaml`, `docker.yaml`, & `widgets.yaml` as reequired.
+   > **Optional:** You can update the `bookmarks.yaml`, `docker.yaml`, & `widgets.yaml` as required.
 
 4. **Start dashboard**
 
