@@ -30,8 +30,7 @@
         server: live
         container: portainer
     - Grafana:
-        href: >-
-          https://graph.example.com
+        href: https://graph.example.com
         icon: grafana.png
         description: Server Monitoring Dashboard
         server: live
