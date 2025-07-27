@@ -86,7 +86,7 @@ tank/
    sudo zsh -c 'for f in config/*.example; do target="${f%.example}.yaml"; [ ! -f "$target" ] && cp "$f" "$target" && echo "Created: $target" || echo "Skipped: $target already exists"; done'
    ```
 
-   > **Note:** Be sure to replace `example.com` in the `services.yaml` & `settings.yaml` files with your `domain`.
+   > **Note:** Be sure to replace `example.com` in the `services.yaml` & `settings.yaml` files with your **domain**.
 
    > **Optional:** You can update the `bookmarks.yaml`, `docker.yaml`, & `widgets.yaml` as reequired.
 
@@ -102,7 +102,7 @@ tank/
 
 Once deployed, access `Dashboard` using:
 
-- **Web Interface (HTTP):** `http://localhost:3333` or replace `localhost` with your server’s IP address.
+- **Web Interface (HTTP):** `http://localhost:3333` or replace `localhost` with your **server/tailscale IP address**.
 
 > **Note:** Be sure to create a `Dashboard` proxy host URL for use as `HOMEPAGE_ALLOWED_HOSTS` using [Nginx Proxy Manager](https://github.com/Vantasin/Nginx-Proxy-Manager.git) as a reverse proxy for HTTPS certificates via Let's Encrypt.
 
