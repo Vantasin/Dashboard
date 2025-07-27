@@ -1,4 +1,8 @@
 # Ignore files with secrets
+kubernetes.yaml
+proxmox.yaml
+custom.css
+custom.js
 bookmarks.yaml
 docker.yaml
 services.yaml
