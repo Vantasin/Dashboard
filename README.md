@@ -86,7 +86,9 @@ tank/
    sudo zsh -c 'for f in config/*.example; do target="${f%.example}.yaml"; [ ! -f "$target" ] && cp "$f" "$target" && echo "Created: $target" || echo "Skipped: $target already exists"; done'
    ```
 
-   > **Note:** Be sure to update the `bookmarks.yaml`, `docker.yaml`, `services.yaml`, `settings.yaml`, & `widgets.yaml` as reequired.
+   > **Note:** Be sure to replace `example.com` in the `services.yaml` & `settings.yaml` files with your `domain`.
+
+   > **Optional:** You can update the `bookmarks.yaml`, `docker.yaml`, & `widgets.yaml` as reequired.
 
 4. **Start dashboard**
 
