@@ -20,7 +20,7 @@
         icon: paperless-ngx.png
         description: Document management system
         server: live
-        container: paperless-webserver-1 
+        container: paperless-ngx-webserver-1
 
 - Monitoring & Networking:
     - Portainer:
