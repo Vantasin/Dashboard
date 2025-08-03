@@ -54,7 +54,7 @@
         icon: joplin.png
         description: Joplin Server – Markdown Notes
         server: live
-        container: joplin-app-1
+        container: joplin-server
 
 - Devops:
     - Gitea:
