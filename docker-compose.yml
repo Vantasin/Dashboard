@@ -3,11 +3,15 @@ services:
     image: ghcr.io/gethomepage/homepage:latest
     container_name: homepage
     restart: always
-    ports:
-      - ${HOMEPAGE_PORT}:3000
+    networks:
+      - npm_proxy
     volumes:
       - ./config:/app/config # Make sure your local config directory exists
       - /var/run/docker.sock:/var/run/docker.sock # (optional) For docker integrations
       - /tank:/tank:ro # Mount /tank into container
     environment:
       HOMEPAGE_ALLOWED_HOSTS: ${HOMEPAGE_ALLOWED_HOSTS}
+
+networks:
+  npm_proxy:
+    external: true

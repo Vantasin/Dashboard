@@ -2,8 +2,9 @@
 
 [![MIT License](https://img.shields.io/github/license/Vantasin/Dashboard?style=flat-square)](LICENSE)[
 ![Docker Compose](https://img.shields.io/badge/Docker-Compose-blue?logo=docker)](https://docs.docker.com/compose/)
-[![Homepage](https://img.shields.io/badge/Homepage-Dashboard-green?logo=homeadvisor)](https://gethomepage.dev/)
 [![ZFS](https://img.shields.io/badge/ZFS-OpenZFS-blue?style=flat-square)](https://openzfs.org/)
+
+[![Homepage](https://img.shields.io/badge/Homepage-Dashboard-green?logo=homeadvisor)](https://gethomepage.dev/)
 
 A self-hosted, lightweight personal dashboard built with Docker Compose. Homepage helps you monitor and access all your homelab services in one place.
 
@@ -76,7 +77,15 @@ tank/
    sudo chmod 600 .env
    ```
 
-   > **Note:** Be sure to update the `HOMEPAGE_ALLOWED_HOSTS` and if required the `HOMEPAGE_PORT`.
+   > **Note:** Be sure to update the `HOMEPAGE_ALLOWED_HOSTS`. Eg. `https://homepage.example.com`.
+
+   > **Tip:** You must create the `HOMEPAGE_ALLOWED_HOSTS` using [Nginx Proxy Manager](https://github.com/Vantasin/Nginx-Proxy-Manager.git) as a reverse proxy for HTTPS certificates via Let's Encrypt.
+   >
+   > **Proxy Host:**
+   >  - **Domain Name:** `https://homepage.example.com`
+   >  - **Scheme:** `http`
+   >  - **Forward Hostname/IP:** `homepage`
+   >  - **Forward Port:** `3000`
 
 3. **Configure config variables**
 
@@ -102,15 +111,21 @@ tank/
 
 Once deployed, access `Dashboard` using:
 
-- **Web Interface (HTTP):** `http://localhost:3333` or replace `localhost` with your **server/tailscale IP address**.
+- **Web Interface (HTTP):** `https://homepage.example.com`.
 
 > **Note:** Be sure to create a `Dashboard` proxy host URL for use as `HOMEPAGE_ALLOWED_HOSTS` using [Nginx Proxy Manager](https://github.com/Vantasin/Nginx-Proxy-Manager.git) as a reverse proxy for HTTPS certificates via Let's Encrypt.
+>
+> **Proxy Host:**
+>  - **Domain Name:** `https://homepage.example.com`
+>  - **Scheme:** `http`
+>  - **Forward Hostname/IP:** `homepage`
+>  - **Forward Port:** `3000`
 
 ---
 
 ## 🙏 Acknowledgments
 
 - [ChatGPT](https://openai.com/chatgpt) — for assistance in generating setup scripts and templates.
-- [Homepage](https://gethomepage.dev) — A beautiful, customizable dashboard for your homelab.
 - [Docker](https://www.docker.com/) — for container orchestration and runtime.
 - [OpenZFS](https://openzfs.org/) — for advanced local filesystem features, dataset organization, and snapshotting.
+- [Homepage](https://gethomepage.dev) — A beautiful, customizable dashboard for your homelab.
