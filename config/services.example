@@ -48,13 +48,19 @@
         server: live
         container: pihole
 
-- Markdown Notes:
+- Notes & Business:
     - Joplin:
         href: https://joplin.example.com
         icon: joplin.png
         description: Joplin Server – Markdown Notes
         server: live
         container: joplin-server
+    - Project Acoustic:
+        href: https://project-acoustic.example.com
+        icon: /icons/project-acoustic.png
+        description: Project Acoustic – Web Application For Noise Management Business
+        server: live
+        container: project_acoustic
 
 - Devops:
     - Gitea:
