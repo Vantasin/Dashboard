@@ -27,9 +27,9 @@ layout:
     style: row
     columns: 2
     header: true
-  Markdown Notes:
+  Notes & Business:
     style: row
-    columns: 1
+    columns: 2
     header: true
   Devops:
     style: row
