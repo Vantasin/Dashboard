@@ -70,7 +70,8 @@
 
 - Financial & Professional:
     - CIBC:
-        - abbr: CIBC
+        - icon: /icons/cibc-logo.jpg
+          abbr: CIBC
           href: https://cibc.ca
           description: CIBC Bank
     - TD:
