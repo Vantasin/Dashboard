@@ -60,7 +60,7 @@
           href: https://disneyplus.com/
           description: Disney, Marvel, and Pixar content
     - Crave:
-        - abbr: Crave
+        - icon: /icons/crave-logo.png
           href: https://www.crave.ca/
           description: Canadian TV and movies
     - YouTube:
@@ -70,31 +70,30 @@
 
 - Financial & Professional:
     - CIBC:
-        - icon: /icons/cibc-logo.jpg
-          abbr: CIBC
+        - icon: /icons/cibc-logo.png
           href: https://cibc.ca
           description: CIBC Bank
     - TD:
-        - abbr: TD
+        - icon: /icons/td-logo.png
           href: https://td.com
           description: TD Bank
     - Tangerine Bank:
-        - abbr: TB
+        - icon: /icons/tangerine-logo.png
           href: https://tangerine.ca
           description: Tangerine Bank
     - Professional Engineers Ontario:
-        - abbr: PEO
+        - icon: /icons/peo-logo.png
           href: https://peo.on.ca
           description: Professional Engineers Ontario
     - TD Insurance:
-        - abbr: TD
+        - icon: /icons/td-logo.png
           href: https://www.tdinsurance.com
           description: TD Insurance
     - Yahoo Finance:
-        - abbr: YF
+        - icon: /icons/yahoo-logo.png
           href: https://ca.finance.yahoo.com/portfolios/
           description: Stock portfolio and market tracker
     - CRA:
-        - abbr: CRA
+        - icon: /icons/cra-logo.png
           href: https://www.canada.ca/en/revenue-agency.html
           description: Canada Revenue Agency
