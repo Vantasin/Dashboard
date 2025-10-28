@@ -77,14 +77,18 @@
         - icon: /icons/td-logo.png
           href: https://td.com
           description: TD Bank
-    - Tangerine Bank:
+    - Tangerine:
         - icon: /icons/tangerine-logo.png
           href: https://tangerine.ca
           description: Tangerine Bank
-    - Professional Engineers Ontario:
+    - PEO:
         - icon: /icons/peo-logo.png
           href: https://peo.on.ca
           description: Professional Engineers Ontario
+    - OSPE:
+        - icon: /icons/ospe-logo.jpg
+          href: https://ospe.on.ca
+          description: Ontario Society of Professional Engineers
     - TD Insurance:
         - icon: /icons/td-logo.png
           href: https://www.tdinsurance.com
