@@ -8,6 +8,7 @@ services:
     volumes:
       - ./config:/app/config # Make sure your local config directory exists
       - ./config/icons:/app/public/icons
+      - ./config/background:/app/public/backgrounds
       - /var/run/docker.sock:/var/run/docker.sock # (optional) For docker integrations
       - /tank:/tank:ro # Mount /tank into container
     environment:

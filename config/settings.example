@@ -7,7 +7,7 @@ description: A centralized start page for my HomeLab services and personal links
 startUrl: "homepage.example.com"
 headerStyle: boxed
 
-background: https://images.unsplash.com/photo-1502790671504-542ad42d5189?auto=format&fit=crop&w=2560&q=80
+background: /backgrounds/IMG_9818.JPG
 
 cardBlur: xs # xs, md, etc... see https://tailwindcss.com/docs/backdrop-blur
 theme: dark # Theme options: "light" or "dark"
