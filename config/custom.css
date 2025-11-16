@@ -1,14 +1,13 @@
-/* Restore Homepage pre-1.6.0 background behavior */
+/* Restore Homepage pre-1.6.0-ish background behavior with fixed bg */
 
 html, body {
   height: 100%;
   min-height: 100%;
 }
 
-/* Make the background behave like before the v1.6.0 DOM/css change */
 body {
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;    /* this matches pre-1.6.x default */
-  background-attachment: scroll; /* avoid funky parallax-like effects */
+  background-size: cover;
+  background-attachment: fixed;  /* static bg, content scrolls over it */
 }
