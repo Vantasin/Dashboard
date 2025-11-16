@@ -1,18 +1,14 @@
-/* Custom overrides to restore pre-v1.6.0 background behavior */
+/* Restore Homepage pre-1.6.0 background behavior */
 
-/* Ensure the dashboard background image behaves like a fixed, centered cover */
-html,
+html, body {
+  height: 100%;
+  min-height: 100%;
+}
+
+/* Make the background behave like before the v1.6.0 DOM/css change */
 body {
-  background-size: cover !important;
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
-  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;    /* this matches pre-1.6.x default */
+  background-attachment: scroll; /* avoid funky parallax-like effects */
 }
-
-/* In case Homepage applies the background to a root container instead of body */
-body > div:first-of-type {
-  background-size: cover !important;
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
-}
-
