@@ -1,13 +1,19 @@
-/* Restore Homepage pre-1.6.0-ish background behavior with fixed bg */
-
 html, body {
   height: 100%;
   min-height: 100%;
 }
 
+/* Desktop & large screens */
 body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-attachment: fixed;  /* static bg, content scrolls over it */
+  background-attachment: fixed;
+}
+
+/* Mobile fallback */
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
 }
