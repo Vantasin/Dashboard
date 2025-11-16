@@ -1,19 +1,28 @@
+/* Shared background behaviour */
 html, body {
+  margin: 0;
+  padding: 0;
   height: 100%;
   min-height: 100%;
 }
 
-/* Desktop & large screens */
+/* Default: assume desktop, JS will correct on mobile */
 body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-attachment: fixed;
 }
 
-/* Mobile fallback */
-@media (max-width: 768px) {
-  body {
-    background-attachment: scroll;
-  }
+/* Classes toggled by custom.js */
+body.bg-desktop {
+  background-attachment: fixed;   /* nice static bg on desktop */
+}
+
+body.bg-mobile {
+  background-attachment: scroll;  /* safer on mobile browsers */
+}
+
+/* Optional: improve mobile vh handling using a CSS variable set by JS */
+body.bg-mobile {
+  min-height: calc(var(--vh, 1vh) * 100);
 }
