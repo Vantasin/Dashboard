@@ -1,6 +1,6 @@
 services:
   homepage:
-    image: ghcr.io/gethomepage/homepage:v1.5.0
+    image: ghcr.io/gethomepage/homepage:${VERSION}
     container_name: homepage
     restart: always
     networks:
